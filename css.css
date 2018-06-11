@@ -1,0 +1,51 @@
+
+/*header*/
+BODY {
+    background: white; /* Цвет фона веб-страницы */
+    border-left: 2px solid #ccc; /* Параметры линии */
+    margin-left: 10%; /* Отступ слева */
+    padding-left: 5%; /* Расстояние от линии до текста */
+}
+A {
+    color: white; /* Цвет ссылок */
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+A:visited {
+    color: white; /* Цвет посещенных ссылок */
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+A:active {
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.menu{
+    display: flex;
+    height: 100px;
+    flex-wrap: nowrap;
+    order: 1;
+    position: relative;
+    background: dimgrey;
+    list-style-type: none;
+}
+.m1{
+    margin: auto;
+    text-decoration: white;
+}
+
+.m2{
+    margin-right:50%;
+    margin-top: 30%;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 30%;
+    margin-right: 7%;
+}
+
+
+.logo{
+    margin: auto;
+}
