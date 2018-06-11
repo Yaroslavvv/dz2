@@ -1,4 +1,3 @@
-
 /*header*/
 BODY {
     background: white; /* Цвет фона веб-страницы */
@@ -6,26 +5,7 @@ BODY {
     margin-left: 10%; /* Отступ слева */
     padding-left: 5%; /* Расстояние от линии до текста */
 }
-.menu {
-A {
-    color: white; /* Цвет ссылок */
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-}
-}
-.menu{
-A:visited {
-    color: white; /* Цвет посещенных ссылок */
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-}
-}
 
-.menu{
-A:active {
-    color: white; /* Цвет активных ссылок */
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-}
-
-}
 .menu{
     display: flex;
     height: 100px;
@@ -34,9 +14,44 @@ A:active {
     position: relative;
     background: dimgrey;
     list-style-type: none;
+    text-decoration: none;
 }
-.menu2{
+
+.menu A {
+    color: white; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.menu A:visited{
+    color: white; /* Цвет посещенных ссылок */
+    text-decoration: none;
+}
+
+.menu A:active{
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+
+.menu2 {
+    text-decoration: none;
     list-style-type: none;
+    text-decoration: none;
+    border: 1px solid grey;
+}
+
+.menu2 A {
+    color: dimgrey; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.menu2 A:visited{
+    color: black; /* Цвет посещенных ссылок */
+    text-decoration: none;
+}
+
+.menu2 A:active{
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none;
 }
 
 .m1{
@@ -65,10 +80,9 @@ A:active {
 }
 
 .logo{
-   padding-top: 5%;
+    padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
 
 }
-
