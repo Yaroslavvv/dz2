@@ -6,17 +6,25 @@ BODY {
     margin-left: 10%; /* Отступ слева */
     padding-left: 5%; /* Расстояние от линии до текста */
 }
+.menu {
 A {
     color: white; /* Цвет ссылок */
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
+}
+.menu{
 A:visited {
     color: white; /* Цвет посещенных ссылок */
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
+}
+
+.menu{
 A:active {
     color: white; /* Цвет активных ссылок */
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
 }
 .menu{
     display: flex;
