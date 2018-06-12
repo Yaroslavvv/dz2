@@ -36,7 +36,8 @@ BODY {
     text-decoration: none;
     list-style-type: none;
     text-decoration: none;
-    border: 1px solid grey;
+    border: 1px solid grey;margin: 0;
+    width: 120px;
 }
 
 .menu2 A {
@@ -64,6 +65,13 @@ BODY {
     margin-top: 30%;
 }
 
+.m3{
+    margin-left: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
 
 .text{
     display: flex;
@@ -72,17 +80,46 @@ BODY {
     margin-right: 7%;
 }
 
-
-.logobox{width: auto;
-    border-width: 2px 2px;
-    border-style: groove;
-
-}
-
 .logo{
     padding-top: 5%;
     padding-right: 5%;
-    padding-left: 5%;
     padding-bottom: 5%;
+    border-width: 2px 2px;
+    border-style: groove;
+    width: 60%;
 
 }
+
+.menu2 ul{
+    display: table; width: 100%display: table; width: 100%
+}
+
+.menu li {
+    display: table-cell; float: none;
+}
+
+.footer{
+    display: flex;
+    height: 50px;
+    flex-wrap: nowrap;
+    position: relative;
+    background: lightgray;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer A {
+    color: black; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.footer A:visited{
+    color: black; /* Цвет посещенных ссылок */
+    text-decoration: none;
+}
+
+.footer A:active{
+    color: black; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+
